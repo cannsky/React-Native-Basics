@@ -26,7 +26,7 @@ import {
 	Text
 } from 'react-native';
 
-export default class App extends Component{
+export default class App extends React.Component{
 	<View>
 		<Text>Welcome to React Native</Text>
 	</View>
@@ -46,13 +46,9 @@ Import dışarıdan ekleyeceğimiz kütüphaneleri eklemek için kullandığım�
 
 Import ile **React’in** kullanması gereken kütüphaneleri ekliyoruz.
 
-**React** bizim componentimiz ve bu componentimiz react pathimizde bulunuyor.
+**React'i** uygulama içerisinde nasıl kullandığımıza bakalım.
 
-**React** **Componentimizi** uygulama içerisinde nasıl kullandığımıza bakalım.
-
-Aslında kullandığımız **React.Component** kullanarak burada App adında yeni bir class oluşturuyoruz ve bunun super class’ı olarak da **React** kütüphanesini gösteriyoruz.
-
-Yani aslında **Component** yerine **React.Component** de yazabiliriz gibi düşünebilirsiniz. Ama yazmak zorunda değilsiniz. **React** bunu kendisi ayarlayabiliyor.
+Aslında kullandığımız **React.Component** kullanarak burada App adında yeni bir class oluşturuyoruz ve bunun super class’ı olarak da **React.Component'i**  gösteriyoruz.
 
 **React-Native** ile de uygulamamız da kullanacağımız componentleri import ediyoruz. Örnek: **Text**, **View** vb.
 
