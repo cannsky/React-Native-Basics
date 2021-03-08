@@ -1,4 +1,4 @@
-# Marmara Computer Science Engineering Club React Native Basics.
+# Marmara Computer Science Engineering Club React Native Basics
 
 **Framework:** Programlama diline önceden tanımlanmış fonksiyon ve classların eklenmesiyle programlama dilinin işlevini değiştiren yapılara framework denir.
 
