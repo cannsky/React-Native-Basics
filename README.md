@@ -65,8 +65,6 @@ export default class App extends Component{
 
 Aslında **App**, **Main** fonksiyonuna çok benzer, **React’in** ilk çalıştırdığı yazdığınız kod **App Class’ı** olacak.
 
-Eğer **Main** fonksiyonunu bilmiyorsanız, main fonksiyonu programlama dillerinde ilk çalıştırılan fonksiyondur.
-
 ## View Ne İşe Yarıyor?
 **View** aslında yazı yazmadan ya da herhangi bir **Component’i** koymadan önce koymamız gereken bir bileşendir.
 
