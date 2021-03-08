@@ -1,47 +1,35 @@
 # Marmara Computer Science Engineering Club React Native Basics.
 
-Framework: Programlama diline önceden tanımlanmış fonksiyon ve classların eklenmesiyle programlama dilinin işlevini değiştiren yapılara framework denir.
+**Framework:** Programlama diline önceden tanımlanmış fonksiyon ve classların eklenmesiyle programlama dilinin işlevini değiştiren yapılara framework denir.
 
-Kütüphane: Önceden tanımlı class ve fonksiyonların bulunduğu dosyalara kütüphane denir.
+**Kütüphane:** Önceden tanımlı class ve fonksiyonların bulunduğu dosyalara kütüphane denir.
 
-Çapraz Platform: Aynı anda birden fazla platform’a yazılım geliştirme işlemine denir.
+**Çapraz Platform:** Aynı anda birden fazla platform’a yazılım geliştirme işlemine denir.
 
 ## React Native Nedir?
 
-*React Native* çapraz platform desteği sunan bir mobil uygulama geliştirme frameworküdür.
+**React Native** çapraz platform desteği sunan bir mobil uygulama geliştirme frameworküdür.
 
 ## React Native Nasıl Ortaya Çıktı?
 
-*React Native* ortaya çıkmadan önce *Facebook* kendi web sitelerini geliştirirken arayüz konusunda sürekli artan kodlardan ve sunucuda oluşan yüklerden pek memnun değildi.
+**React Native** ortaya çıkmadan önce **Facebook** kendi web sitelerini geliştirirken arayüz konusunda sürekli artan kodlardan ve sunucuda oluşan yüklerden pek memnun değildi.
 
-*React.js* adındaki framework’ü yayınlayan *Facebook* aslında ilk başlarda websitelerindeki arayüzü daha hızlı render edebilmek ve sunuculardaki iş yükünü azaltmak için bu framework’ü yayınladı.
+**React.js** adındaki framework’ü yayınlayan *Facebook* aslında ilk başlarda websitelerindeki arayüzü daha hızlı render edebilmek ve sunuculardaki iş yükünü azaltmak için bu framework’ü yayınladı.
 
 Aradan geçen zaman içerisinde *React* kullanım kolaylığı sayesinde çoğu yazılımcı ve şirket tarafından kullanılmaya başladı.
 
-*React* kısaca, ilk başlarda arayüz geliştirmek için oluşturulmuş, *Node Package Manager’e* bağlı bir framework’tür.
-
-## Peki Nasıl React Native Oldu?
-
-Kısa zaman sonra mobil uygulamaların öneminin artmasıyla ortaya büyük bir sorun çıktı, çapraz platform uygulamalar geliştirmek.
-
-O dönemlerde birkaç framework bunu sağlıyordu ve ayrıca *Unity* gibi oyun geliştirme motorları da çapraz platform desteği sağlayan şirketler arasındaydı.
-
-Özellikle Google’ın *Angular.js* framework’ü de javascriptle çalışan bir başka çapraz platform framework’üdür.
-
-Kısa zaman sonra mobil uygulamalarda design sürecini uygulamaya geçirmek hem *Android* hem de Swift için zorlu olduğundan,  *React ‘ın* mobil sürümü *React-Native* yayınlandı. Ör: *Android* ve *İos’taki* view componentleri birbirinden oldukça farklıdır. Bu yüzden iki farklı platforma da tasarımı eklemek ekstra bir çaba gerektirir.
-
-*React’in* çalışma mantığı yazılan javascript kodunu otomatik olarak *Swift* ve *Kotlin* kodlarına dönüştürmesidir.
+**React** kısaca, ilk başlarda arayüz geliştirmek için oluşturulmuş, **Node Package Manager’e** bağlı bir framework’tür.
 
 ## Uygulamaların Back-End’inde React Native?
 
-İlk başlarda sadece tasarımı ayarlamak amaçlı olsa da *Node Package Manager* sayesinde yeni kütüphaneler geliştiren diğer topluluk geliştiricileri arka plan kodlarını da eklemeye başladılar. Örneğin, Arkaplan işlemleri, Sunucudan veri alma, Bildirim Yollama gibi.
+İlk başlarda sadece tasarımı ayarlamak amaçlı olsa da **Node Package Manager** sayesinde yeni kütüphaneler geliştiren diğer topluluk geliştiricileri arka plan kodlarını da eklemeye başladılar. Örneğin, Arkaplan işlemleri, Sunucudan veri alma, Bildirim Yollama gibi.
 
 ## Sonuç Olarak
 
-*React Native* geliştirme süreciyle beraber günümüzde çok daha güçlü bir framework haline gelmiş olup herkes tarafından kullanabilir bir durumdadır.
+**React Native** geliştirme süreciyle beraber günümüzde çok daha güçlü bir framework haline gelmiş olup herkes tarafından kullanabilir bir durumdadır.
 
 ## React Native Welcome Screen App
-*React Native’deki* ilk yapacağımız uygulama bir welcome screen uygulaması olacak.
+**React Native’deki** ilk yapacağımız uygulama bir welcome screen uygulaması olacak.
 
 Uygulamamız açıldığında ekranda sadece Welcome to My App yazısını yazacağız.
 
@@ -72,17 +60,17 @@ import {
 
 Import dışarıdan ekleyeceğimiz kütüphaneleri eklemek için kullandığımız bir javascript terimidir.
 
-Import ile *React’in* kullanması gereken kütüphaneleri ekliyoruz.
+Import ile **React’in** kullanması gereken kütüphaneleri ekliyoruz.
 
-*React* bizim componentimiz ve bu componentimiz react pathimizde bulunuyor.
+**React** bizim componentimiz ve bu componentimiz react pathimizde bulunuyor.
 
-*React* *Componentimizi* uygulama içerisinde nasıl kullandığımıza bakalım.
+**React** **Componentimizi** uygulama içerisinde nasıl kullandığımıza bakalım.
 
-Aslında kullandığımız *React.Component* kullanarak burada App adında yeni bir class oluşturuyoruz ve bunun super class’ı olarak da *React* kütüphanesini gösteriyoruz.
+Aslında kullandığımız **React.Component** kullanarak burada App adında yeni bir class oluşturuyoruz ve bunun super class’ı olarak da **React** kütüphanesini gösteriyoruz.
 
-Yani aslında *Component* yerine *React.Component* de yazabiliriz gibi düşünebilirsiniz. Ama yazmak zorunda değilsiniz. *React* bunu kendisi ayarlayabiliyor.
+Yani aslında **Component** yerine **React.Component** de yazabiliriz gibi düşünebilirsiniz. Ama yazmak zorunda değilsiniz. **React** bunu kendisi ayarlayabiliyor.
 
-*React-Native* ile de uygulamamız da kullanacağımız componentleri import ediyoruz. Örnek: *Text*, *View* vb.
+**React-Native** ile de uygulamamız da kullanacağımız componentleri import ediyoruz. Örnek: **Text**, **View** vb.
 
 ## Classımızı Oluşturarak Ekranda Hoş Geldin Mesajı Görüntülemek
 ```
@@ -93,29 +81,29 @@ export default class App extends Component{
 }
 ```
 
-*Export* kullanarak aslında oluşturduğumuz *App* classını dışarıya export ediyoruz. Burada yaptığımız şey, *React’in* kendisine *App* classımızı göstermek.
+**Export** kullanarak aslında oluşturduğumuz **App** classını dışarıya export ediyoruz. Burada yaptığımız şey, **React’in** kendisine **App** classımızı göstermek.
 
-Aslında *App*, *Main* fonksiyonuna çok benzer, *React’in* ilk çalıştırdığı yazdığınız kod *App Class’ı* olacak.
+Aslında **App**, **Main** fonksiyonuna çok benzer, **React’in** ilk çalıştırdığı yazdığınız kod **App Class’ı** olacak.
 
-Eğer *Main* fonksiyonunu bilmiyorsanız, main fonksiyonu programlama dillerinde ilk çalıştırılan fonksiyondur.
+Eğer **Main** fonksiyonunu bilmiyorsanız, main fonksiyonu programlama dillerinde ilk çalıştırılan fonksiyondur.
 
 ## View Ne İşe Yarıyor?
-*View* aslında yazı yazmadan ya da herhangi bir *Component’i* koymadan önce koymamız gereken bir bileşendir.
+**View** aslında yazı yazmadan ya da herhangi bir **Component’i** koymadan önce koymamız gereken bir bileşendir.
 
-*View* genel olarak değişik *Component’lerin* beraber durmasını sağlar ve stil uygulanabilir.
+**View** genel olarak değişik **Component’lerin** beraber durmasını sağlar ve stil uygulanabilir.
 
-*StyleSheetler* ile *View’in* tasarımını değiştirmeyi birazdan öğreneceğiz.
+**StyleSheetler** ile **View’in** tasarımını değiştirebilirsiniz.
 
 ## Component Nedir
-*Componentler* çeşitli kütüphaneleri kullanarak eklediğimiz uygulama bileşenleridir.
+**Componentler** çeşitli kütüphaneleri kullanarak eklediğimiz uygulama bileşenleridir.
 
 Örnek: `<Text>Bu bir yazı.</Text>`
 
-*Componentler* çeşitli değişkenleri parametre olarak alabilirler. Detaylı bilgi için *React Native’in* *Componentlerine* bakabilirsiniz.
+**Componentler** çeşitli değişkenleri parametre olarak alabilirler. Detaylı bilgi için **React Native’in** **Componentlerine** bakabilirsiniz.
 
 ## Kütüphaneler Nedir? Neden Kullanılır
-*React’in* temel kütüphanelerinin yanında bazı faydalı kütüphaneler de vardır, Örneğin: *React Native Navigation*
+**React’in** temel kütüphanelerinin yanında bazı faydalı kütüphaneler de vardır, Örneğin: *React Native Navigation*
 
-Bu kütüphaneler ile *React* ile daha iyi uygulamalar yapabilirsiniz.
+Bu kütüphaneler ile **React** ile daha iyi uygulamalar yapabilirsiniz.
 
-Örnek verecek olursak, *React’te* sayfalar arası geçiş sağlamak için navigation sistemi yoktur ama *React Native Navigation* kullanarak navigasyon sisteminizi yazabilirsiniz.
+Örnek verecek olursak, **React’te** sayfalar arası geçiş sağlamak için navigation sistemi yoktur ama *React Native Navigation* kullanarak navigasyon sisteminizi yazabilirsiniz.
