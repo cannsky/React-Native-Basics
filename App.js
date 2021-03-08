@@ -6,7 +6,6 @@ import {
 } from 'react-native';
 
 export default class App extends React.Component{
-  
   constructor(props){
     super(props);
     this.state = {
@@ -14,7 +13,6 @@ export default class App extends React.Component{
       count2: 0
     };
   }
-  
   render(){
     return(
       <View style={{flex: 1}}>
@@ -38,5 +36,4 @@ export default class App extends React.Component{
       </View>
     );
   }
-  
 }
