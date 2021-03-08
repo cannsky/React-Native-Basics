@@ -2,8 +2,7 @@ import React, {useState} from 'react';
 import {
   Text,
   View,
-  Button,
-  Alert
+  Button
 } from 'react-native';
 
 export default class App extends React.Component{
