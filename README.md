@@ -102,7 +102,7 @@ Eğer **Main** fonksiyonunu bilmiyorsanız, main fonksiyonu programlama dillerin
 **Componentler** çeşitli değişkenleri parametre olarak alabilirler. Detaylı bilgi için **React Native’in** **Componentlerine** bakabilirsiniz.
 
 ## Kütüphaneler Nedir? Neden Kullanılır
-**React’in** temel kütüphanelerinin yanında bazı faydalı kütüphaneler de vardır, Örneğin: *[React Native Navigation]*(https://reactnavigation.org/)
+**React’in** temel kütüphanelerinin yanında bazı faydalı kütüphaneler de vardır, Örneğin: [React Native Navigation](https://reactnavigation.org/)
 
 Bu kütüphaneler ile **React** ile daha iyi uygulamalar yapabilirsiniz.
 
