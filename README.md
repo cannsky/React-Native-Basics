@@ -10,22 +10,6 @@
 
 **React Native** çapraz platform desteği sunan bir mobil uygulama geliştirme frameworküdür.
 
-## React Native Nasıl Ortaya Çıktı?
-
-**React Native** ortaya çıkmadan önce **Facebook** kendi web sitelerini geliştirirken arayüz konusunda sürekli artan kodlardan ve sunucuda oluşan yüklerden pek memnun değildi.
-
-**React.js** adındaki framework’ü yayınlayan *Facebook* aslında ilk başlarda websitelerindeki arayüzü daha hızlı render edebilmek ve sunuculardaki iş yükünü azaltmak için bu framework’ü yayınladı.
-
-Aradan geçen zaman içerisinde *React* kullanım kolaylığı sayesinde çoğu yazılımcı ve şirket tarafından kullanılmaya başladı.
-
-**React** kısaca, ilk başlarda arayüz geliştirmek için oluşturulmuş, **Node Package Manager’e** bağlı bir framework’tür.
-
-## Uygulamaların Back-End’inde React Native?
-
-İlk başlarda sadece tasarımı ayarlamak amaçlı olsa da **Node Package Manager** sayesinde yeni kütüphaneler geliştiren diğer topluluk geliştiricileri arka plan kodlarını da eklemeye başladılar. Örneğin, Arkaplan işlemleri, Sunucudan veri alma, Bildirim Yollama gibi.
-
-## Sonuç Olarak
-
 **React Native** geliştirme süreciyle beraber günümüzde çok daha güçlü bir framework haline gelmiş olup herkes tarafından kullanabilir bir durumdadır.
 
 ## React Native Welcome Screen App
